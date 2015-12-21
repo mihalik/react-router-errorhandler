@@ -2,7 +2,7 @@
   "name": "react-router-errorhandler",
   "version": "0.0.1",
   "description": "Wrap components to handle errors during rendering.",
-  "main": "dist/index",
+  "main": "./dist/index",
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && mkdir dist && babel src/index.js --out-file dist/index.js",
